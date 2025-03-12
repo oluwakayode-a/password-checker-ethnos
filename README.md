@@ -1,3 +1,5 @@
+# Secure Password Leak Detection System
+
 This project is a Secure Password Leak Detection System built using Django, Celery, PostgreSQL, Redis, and Sentry. The system allows users to check if their passwords have been leaked using the HIBP (Have I Been Pwned) API. The project is designed to handle requests efficiently with background task processing, caching, and error logging.
 
 ### Project Structure
