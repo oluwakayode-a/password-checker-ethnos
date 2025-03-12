@@ -15,6 +15,10 @@ def check_password(password: str, task_id: int) -> Union[bool, int]:
 
     if password_cache is not None:
         obj = dict(password_cache)
+        count = obj.get("count")
+        safe = True if int(count) == 0 else False
+        
+        return safe, int(count)
 
         
     safe = True
